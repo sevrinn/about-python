@@ -61,7 +61,7 @@ header input[type="submit"] {
   color: white;
   margin: 5px;
   background-color: #245076;
-  border-color: white grey grey white;
+  border-color: #c0c0c0 #6c6c6c #6c6c6c #c0c0c0;
   border-radius: 4px;
 }
 
