@@ -1,5 +1,5 @@
 * {
-  outline: 1px dotted fuchsia;
+  /* outline: 1px dotted fuchsia; */
   margin: 0;
   padding: 0;
 }
@@ -11,13 +11,14 @@ body {
   width: 970px;
   height: fit-content;
   background-color: #245076;
-  padding: 20px;
+
   margin: 0 auto;
 }
 
 header {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 
 header p {
@@ -117,6 +118,7 @@ nav ul li a {
   color: #f3cd34;
   list-style-type: none;
   padding: 5px;
+  width: ;
 }
 
 .main-content .links ul li a {
@@ -142,4 +144,85 @@ nav ul li a {
   font-style: italic;
   padding: 5px;
   list-style-type: none;
+}
+
+.secondary-content {
+  background-color: white;
+  border-top: 5px solid black;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.secondary-content .getting-started {
+  margin: 10px 10px 10px 45px;
+}
+
+.secondary-content .applications {
+  margin: 10px 45px 10px 10px;
+}
+
+.secondary-content .getting-started,
+.secondary-content .applications {
+  border-top: 5px solid #73a7d5;
+  width: 400px;
+}
+
+.secondary-content h3 {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.secondary-content p {
+  width: 300px;
+  font-size: 13px;
+  margin-left: 30px;
+}
+
+.secondary-content ul {
+  width: 220px;
+  justify-self: center;
+  align-items: center;
+  margin: 10px 0 0px 80px;
+}
+
+.secondary-content ul li {
+  color: #73a7d5;
+  list-style-type: square;
+}
+
+.secondary-content ul li::marker {
+  color: black;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(#245177, #3375ad);
+  color: #73a7d5;
+  border-bottom: 2px solid white;
+}
+
+footer ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding: 40px 10px 10px 10px;
+}
+
+footer ul li a {
+  color: #73a7d5;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  font-size: 8px;
+  padding-bottom: 10px;
 }
